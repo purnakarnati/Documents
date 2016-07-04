@@ -1,0 +1,38 @@
+What is config property in extjs?
+   (There is also a dedicated config property that gets processed by the powerful Ext.Class pre-processors before the class is created. Features include:
+
+	Configurations are completely encapsulated from other class members
+	Getter and setter methods for every config property are automatically generated into the class prototype during class creation if methods are not already defined.
+	The auto-generated setter method calls the apply method (if defined on the class) internally before setting the value. You may override the apply method for a config property if you need to run custom logic before setting the value. If your apply method does not return a value, the setter will not set the value. The update method (if defined) will also be called when a different value is set. Both the apply and update methods are passed the new value and the old value as params.
+	For Ext classes that use the configs, you don’t need to call initConfig() manually. However, for your own classes that extend Ext.Base, initConfig() still needs to be called.)
+What´s the difference in between id and itemID?
+what is the difference between Ext.getCmp() and Ext.ComponentQuery?
+what is up() and down() methods in extjs?
+How to define a custom component in extjs? how to create object for that class?
+What is a widget?
+what is refs in extjs?
+
+Layouts
+what are different types of layouts in extjs?
+what is differnce  layouts ?
+
+Components
+Forms:
+How to load data into form?
+how to get form values ?
+how to check is form valid or not?
+what is formBind property?
+what is different types of form elements ?
+Grid:
+what is grid? how to use pagination in grid?
+what are different types of grid features? or what is ftype?
+what are different types of grid plugins? or what is ptype?
+what is the use of renderer method?
+how to define shorters in columns?
+
+
+
+
+
+
+
